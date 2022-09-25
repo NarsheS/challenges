@@ -1,0 +1,130 @@
+body{
+    text-align: center;
+    font-size: 15px;
+    background-color: hsl(216, 12%, 8%);
+    font-family: 'Overpass';
+}
+
+.attribution{
+    background-color: hsl(213, 19%, 18%);
+    width: 22rem;
+    height: 21rem;
+    margin: 10% auto;
+    border-radius: 15px;
+    text-align: left;
+}
+
+.star{
+    position: absolute;
+    top: 25%;
+    left: 25%;
+}
+
+.star-circle{
+    border-radius: 100%;
+    background-color: hsl(212, 15%, 24%);
+    width: 2rem;
+    height: 2rem;
+    position: relative;
+    top: 1.5rem;
+    left: 1.5rem;
+}
+
+h1{
+    color: hsl(0, 0%, 100%);
+    margin: 3rem 0 0 1.5rem;
+}
+
+p{
+    color: hsl(217, 12%, 63%);
+    max-width: 20rem;
+    margin: 1rem 0 0 1.5rem;
+}
+
+.btn-div{
+    text-align: center;
+}
+
+.submit{
+    text-align: center;
+}
+
+.btn{
+    background-color: hsl(212, 15%, 24%);
+    border-radius: 100%;
+    border-style: none;
+    color: hsl(217, 12%, 63%);
+    height: 2.3rem;
+    width: 2.3rem;
+    margin: 1.6rem 0.4rem;
+    font-weight: 700;
+}
+
+.submit-btn{
+    background-color: hsl(25, 97%, 53%);
+    border-style: none;
+    border-radius: 15px;
+    width: 90%;
+    height: 2.1rem;
+    color: white;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.btn:active{
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+}
+
+.btn:focus{
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+}
+
+.submit-btn:active{
+    background-color: hsl(212, 15%, 24%);
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.thanks{
+    margin: 2rem 0 0.6rem 0;
+    width: 8rem;
+}
+
+.attribution2{
+    background-color: hsl(213, 19%, 18%);
+    width: 22rem;
+    height: 21rem;
+    margin: 10% auto;
+    border-radius: 15px;
+    text-align: left;
+    text-align: center;
+}
+
+h3{
+    font-size: 15px;
+    font-weight: 400;
+    color: hsl(25, 97%, 53%);
+    background-color: hsl(212, 15%, 24%);
+    border-radius: 15px;
+    width: 14rem;
+    height: 1rem;
+    margin: 0 auto;
+    padding: 5px 0;
+}
+
+.title-main{
+    margin: 2rem auto 1rem;
+}
+
+.title-p{
+    margin: 1rem auto;
+}
